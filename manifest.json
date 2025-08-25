@@ -1,7 +1,7 @@
 {
   "modules": {
     "consensus": {
-      "data_url": "https://cdn.yoursite.com/consensus@1.0.0.json",
+      "data_url": "https://cdn.jsdelivr.net/gh/KairosVet/vet-evidence-data@main/consensus@1.0.0.json",
       "data_version": "1.0.0"
     }
   },
