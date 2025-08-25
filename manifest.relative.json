@@ -1,0 +1,9 @@
+{
+  "modules": {
+    "consensus": {
+      "data_url": "consensus@1.0.0.json",
+      "data_version": "1.0.0"
+    }
+  },
+  "released_at": "2025-08-25T03:29:45.485750Z"
+}

@@ -1,0 +1,1297 @@
+{
+  "data_version": "1.0.0",
+  "generated_at": "2025-08-25T03:29:16.179937Z",
+  "items": [
+    {
+      "id": "acvim-se-cs-2024",
+      "org": "ACVIM",
+      "title": "Consensus Statement on the Management of Status Epilepticus and Cluster Seizures in Dogs and Cats",
+      "year": 2024,
+      "doi": "10.1111/jvim.16928",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.16928",
+      "species": [
+        "dog",
+        "cat"
+      ],
+      "systems": [
+        "neurology",
+        "emergency"
+      ],
+      "conditions": [
+        "status epilepticus",
+        "cluster seizures"
+      ],
+      "setting": [
+        "Out-of-hospital (home)",
+        "In-hospital (ER/GP/IM/Neuro)"
+      ],
+      "scope_in": [
+        "Status epilepticus (SE) management",
+        "Cluster seizures (CS) management",
+        "Acute stabilization + short-term plans"
+      ],
+      "scope_out": [
+        "Long-term epilepsy control outside the acute window",
+        "Exotics/large animals",
+        "Detailed ventilator protocols"
+      ],
+      "methods": "Panel of 5 specialists synthesized veterinary clinical and PK studies plus human data; most evidence in dogs, less in cats.",
+      "grading_native": "ACVIM recommendation A/B/C/E (varies by species/route).",
+      "normalized_grade": "A",
+      "conflicts_of_interest": "Some disclosed (see paper). Off-label use noted.",
+      "staging_system": "ILAE/IVETF timepoints: T1=5 min (start tx), T2=30 min (injury risk).",
+      "thresholds": [
+        {
+          "name": "SE operational start (T1)",
+          "value": "≥5 minutes continuous or ≥2 without recovery",
+          "unit": "minutes",
+          "how_measured": "clinical seizure duration/intervals"
+        },
+        {
+          "name": "SE injury risk (T2)",
+          "value": "≈30 minutes",
+          "unit": "minutes",
+          "how_measured": "clinical course"
+        },
+        {
+          "name": "Cluster seizures",
+          "value": ">2 seizures in 24 h",
+          "unit": "count/24 h",
+          "how_measured": "history/observation"
+        }
+      ],
+      "diagnostics": {
+        "first_line": [
+          "Stabilize in parallel with antiseizure meds: airway/oxygen, temperature, glucose and electrolytes.",
+          "Evaluate/treat hypoglycemia, electrolyte derangements, hypoxemia."
+        ],
+        "second_line": [
+          "No mandated tests before escalation; proceed alongside seizure control per clinician judgment."
+        ],
+        "pitfalls": [
+          "Do not delay treatment to obtain IV access; intranasal midazolam is acceptable first dose if IV not available."
+        ],
+        "do_not_do": []
+      },
+      "therapy": {
+        "start_criteria": [
+          "Initiate emergency treatment at T1 (≥5 min or recurrent without recovery)."
+        ],
+        "stop_hold_criteria": [],
+        "first_line": [
+          {
+            "name": "Benzodiazepine (home/out-of-hospital)",
+            "route": [
+              "IN",
+              "rectal",
+              "IM"
+            ],
+            "detail": "IN midazolam preferred when feasible; rectal diazepam acceptable; IM midazolam only if caregiver trained.",
+            "evidence": {
+              "dog": "A",
+              "cat": "E"
+            }
+          },
+          {
+            "name": "Benzodiazepine (in-hospital)",
+            "route": [
+              "IV",
+              "IN",
+              "IM"
+            ],
+            "detail": "IV midazolam or IV diazepam first-line; IN midazolam if IV not yet available; IM midazolam acceptable.",
+            "evidence": {
+              "dog": "A",
+              "cat": "B"
+            }
+          },
+          {
+            "name": "If relapse after BZD boluses",
+            "route": [
+              "IV"
+            ],
+            "detail": "Start IV midazolam CRI; if unavailable, diazepam bolus + CRI (dogs).",
+            "evidence": {
+              "dog": "A",
+              "cat": "B"
+            }
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Second-line antiseizure medications",
+            "detail": "Levetiracetam (IV dogs/cats; IM/rectal where applicable) and Phenobarbital (dogs; cats). Consider fosphenytoin adjunct in dogs.",
+            "evidence": {
+              "dog": "A",
+              "cat": "B"
+            }
+          },
+          {
+            "name": "Refractory (anesthetic tier)",
+            "detail": "Ketamine ± CRI → Dexmedetomidine ± CRI → Propofol ± CRI (cats: CRI with caution).",
+            "evidence": {
+              "dog": "A",
+              "cat": "C"
+            }
+          }
+        ],
+        "contraindications": [
+          "Prefer midazolam over diazepam for CRI (adsorption to plastic; solvent issues).",
+          "Propylene glycol in diazepam can cause phlebitis/hypotension; particular concern in cats."
+        ],
+        "interactions": [
+          "Higher levetiracetam doses may be required in dogs on chronic phenobarbital (enzyme induction)."
+        ],
+        "adverse_effects": [
+          "Cats: hepatotoxicity risk with longer-acting BZDs (clonazepam, clorazepate).",
+          "Cats: propofol CRI—hematologic/clinical monitoring required; consider alternatives first."
+        ]
+      },
+      "monitoring": {
+        "schedule": [
+          "Acute phase: continuous observation; if seizures relapse after BZD, move to CRI and add second-line early."
+        ],
+        "targets": [
+          "Terminate seizures before T2 (~30 min). Maintain airway/oxygenation and normothermia; correct derangements."
+        ],
+        "escalation": [
+          "Inadequate response to first-line BZD → add levetiracetam/phenobarbital (± fosphenytoin dogs).",
+          "Refractory → anesthetic tier (ketamine → dexmedetomidine → propofol)."
+        ],
+        "client_notes": [
+          "Known CS at home: give prescribed IN-midazolam or rectal diazepam at first event; seek ER if clustering persists.",
+          "Levetiracetam ‘pulse’ can reduce further CS; use PO when safe (rectal/IM alternatives if not).",
+          "Cats: avoid repeated/long BZD use without veterinary guidance; ER if >2 seizures/24 h."
+        ]
+      },
+      "special_populations": [
+        "Cats: weaker evidence base overall; many recommendations are expert-opinion (E).",
+        "Cats: consider non-propofol anesthetics first for refractory cases.",
+        "Home IM routes only if caregiver medically trained."
+      ],
+      "implementation": {
+        "equipment": [
+          "Intranasal delivery device can reduce time to first dose when IV access is delayed."
+        ],
+        "cost_notes": [
+          "Some uses are off-label; document informed consent and comply with local regulations."
+        ],
+        "stewardship": []
+      },
+      "alignment": {
+        "conflicts": [
+          "Elevates intranasal midazolam over rectal diazepam at home (dogs A) vs older norms."
+        ],
+        "uncertainties": [
+          "Limited feline trials; several cat recommendations graded as expert opinion.",
+          "Dose specifics/CRI rates primarily in supplementary files."
+        ]
+      },
+      "take_home": [
+        {
+          "text": "Treat SE at 5 minutes (T1); don’t wait for T2 (~30 min).",
+          "grade": "A"
+        },
+        {
+          "text": "Use IN-midazolam first-line when IV access is delayed; IV midazolam/diazepam are first-line in hospital.",
+          "grade": "A"
+        },
+        {
+          "text": "Add a longer-acting ASM early (LEV/PHB) to prevent refractoriness.",
+          "grade": "B"
+        }
+      ],
+      "one_screen_flow": [
+        "Recognize SE: ≥5 min or ≥2 without recovery → act now.",
+        "Stabilize & investigate in parallel (airway/O2, temp, glucose/electrolytes).",
+        "Give BZD: Home—IN-MDZ preferred; Rectal DZP acceptable. Hospital—IV MDZ/DZP; IN-MDZ if IV delayed.",
+        "If relapse/persistent: repeat bolus → start MDZ IV CRI (prefer MDZ over DZP for CRI).",
+        "Start longer-acting ASM early: LEV and/or PHB; consider FOS (dogs).",
+        "Refractory: Ketamine → Dexmedetomidine → Propofol (cats: CRI caution).",
+        "Clusters: ‘pulse’ LEV ± BZD (cat caution); if persists, follow SE pathway."
+      ],
+      "review_next_by": "2027-12-31",
+      "score": 86,
+      "notes": {
+        "dosing_availability": "Use supplementary tables for exact bolus/CRI doses and intervals.",
+        "home_kit_tip": "Pre-dispensed IN-MDZ with written owner instructions reduces time to first dose."
+      },
+      "resources": [
+        {
+          "label": "Dose tables (supplement)",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.16928#support-information"
+        }
+      ],
+      "_checksum": "9435b39525dc",
+      "_source_file": "normalized"
+    },
+    {
+      "id": "acvim-ui-dogs-2024",
+      "org": "ACVIM",
+      "title": "Consensus statement on diagnosis and management of urinary incontinence in dogs",
+      "year": 2024,
+      "doi": "10.1111/jvim.16975",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.16975",
+      "species": [
+        "dog"
+      ],
+      "systems": [
+        "urology",
+        "internal medicine",
+        "surgery/endourology",
+        "neurology",
+        "radiology"
+      ],
+      "conditions": [
+        "urinary incontinence",
+        "USMI",
+        "functional outflow obstruction",
+        "mechanical outflow obstruction",
+        "ectopic ureters",
+        "detrusor hypocontractility"
+      ],
+      "setting": [
+        "GP",
+        "ER",
+        "Internal Medicine",
+        "Surgery/Endourology",
+        "Neurology",
+        "Radiology"
+      ],
+      "scope_in": [
+        "Canine urinary incontinence: storage vs voiding disorders",
+        "Initial work-up and first-/second-line management",
+        "Peri-interventional testing and key procedural options"
+      ],
+      "scope_out": [
+        "Cat urinary incontinence",
+        "Detailed anesthetic/urodynamic protocols",
+        "Comprehensive neurologic disease review"
+      ],
+      "methods": "Expert consensus with structured statements and panel votes; imaging/interventional sections co-reviewed with surgery/endourology. No targeted funding; panelists not compensated.",
+      "grading_native": "Panel agreement percentage per statement (no GRADE).",
+      "normalized_grade": "B",
+      "conflicts_of_interest": "No targeted funding disclosed; acknowledgments note none beyond editorial assistance.",
+      "staging_system": "Pattern-based classification: Storage disorders (e.g., USMI) vs Voiding disorders (FOO/MOO); use CUI-S at every visit.",
+      "thresholds": [
+        {
+          "name": "Normal PVRV",
+          "value": "0.2–1.0",
+          "unit": "mL/kg",
+          "how_measured": "2D ultrasound (V=L×W×H×0.52) or 3D bladder scanner; measure ≤10 min post-void"
+        },
+        {
+          "name": "Abnormal PVRV",
+          "value": ">3",
+          "unit": "mL/kg",
+          "how_measured": "As above; allow ample time for complete void"
+        },
+        {
+          "name": "Catheter UTI risk",
+          "value": "8–32",
+          "unit": "% incidence",
+          "how_measured": "Post-catheterization cultures"
+        }
+      ],
+      "key_points": [
+        "Measure PVRV in every incontinent dog by ultrasound within 10 minutes post-void; >3 mL/kg suggests a voiding disorder.",
+        "Classify by pattern: storage (USMI) vs voiding (FOO/MOO) to drive targeted therapy.",
+        "USMI first line: phenylpropanolamine (PPA) or estriol (spayed females); reassess in ~28 days and titrate.",
+        "Prefer ultrasound over catheterization for PVRV to reduce infection risk; obtain UA and culture before procedures.",
+        "Suspected ectopic ureters: cystoscopy ± fluoroscopy preferred—often diagnostic and therapeutic."
+      ],
+      "diagnostics": {
+        "first_line": [
+          "History + video of urination; CUI-S at every visit.",
+          "Focused exam incl. rectal/urethral palpation; note bladder size pre- and post-void.",
+          "Urinalysis + aerobic culture in all dogs with UI and before procedures; treat 5 days if culture-positive.",
+          "Measure PVRV within 10 minutes of void (ultrasound preferred over catheterization)."
+        ],
+        "second_line": [
+          "Survey abdominal radiographs including entire urethra if voiding disorder suspected.",
+          "Retrograde urography ± cystoscopy for suspected voiding disorders (short urethra, strictures, diverticulae).",
+          "Ectopic ureter work-up: ultrasound has limited sensitivity; cystoscopy ± fluoroscopy preferred; CT helpful if cystoscopy unavailable.",
+          "Urodynamics (UPP/CMG/LPP/EMG) not required initially; consider in refractory cases or when ectopic ureters co-exist."
+        ],
+        "pitfalls": [
+          "Pelvic bladder alone is neither specific nor sensitive for UI; do not anchor—investigate other causes (Sp ~68–75%, Sn ~65–76%).",
+          "Sedation/anaesthesia alters MUCP and detrusor reflex during urodynamics; interpret cautiously."
+        ],
+        "do_not_do": [
+          "Do not default to catheterization to measure PVRV; use ultrasound when available.",
+          "Do not rely on pelvic bladder position to diagnose UI or decide therapy."
+        ]
+      },
+      "therapy": {
+        "start_criteria": [
+          "Treat culture-positive UTI for 5 days, then reassess continence.",
+          "Classify by PVRV + pattern: storage (e.g., USMI) vs voiding (FOO/MOO) and start targeted therapy."
+        ],
+        "stop_hold_criteria": [
+          "Hold/adjust PPA if hypertension or adverse effects; monitor blood pressure.",
+          "Hold alpha-blockers/benzodiazepines if hypotension or sedation limits function."
+        ],
+        "first_line": [
+          {
+            "name": "USMI — Phenylpropanolamine (PPA)",
+            "dose": "2 mg/kg PO q8–12h (alternatives: 1.5 mg/kg q12h or 1 mg/kg q8h)",
+            "duration": "Chronic; titrate to continence"
+          },
+          {
+            "name": "USMI — Estriol (spayed females)",
+            "dose": "2 mg/dog PO q24h ×7–14 d, then 1 mg/dog q24h (adjust to effect)",
+            "duration": "Chronic; lowest effective dose"
+          },
+          {
+            "name": "FOO — Alpha-blocker (tamsulosin or prazosin)",
+            "dose": "Tamsulosin 0.4–0.8 mg/dog q24h (↑ to q12–8h if needed); Prazosin 0.5–3 mg/dog q8–12h",
+            "duration": "Weeks; adjust to PVRV/clinical response"
+          },
+          {
+            "name": "FOO — Skeletal muscle relaxant (diazepam)",
+            "dose": "0.04–0.8 mg/kg/day divided q8–12h; give 30–60 min before voiding",
+            "duration": "Short- to mid-term adjunct"
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "USMI — Urethral bulking (dextranomer/hyaluronic acid)",
+            "notes": "Success >80%; recurrence common within 1 year; repeatable; monitor for UTIs/rare complications"
+          },
+          {
+            "name": "USMI — Artificial urethral sphincter (AUS)",
+            "notes": "Improved continence ~82–92%; risks: infection, migration, erosion; device adjustments needed"
+          },
+          {
+            "name": "EU — Cystoscopic-guided laser ablation (CA-EU)",
+            "notes": "Definitive for intramural EU; success 47–72% without meds; 77–82% with adjuncts/combined interventions"
+          },
+          {
+            "name": "MOO — Urethral stent (malignant/benign strictures)",
+            "notes": "Technical/clinical success ~97.6%; post-stent incontinence 26–41% depending on site"
+          },
+          {
+            "name": "Detrusor hypocontractility — Bethanechol ± bladder relaxant",
+            "notes": "Bethanechol 2.5–25 mg/dog q8–24h; consider oxybutynin 0.2–0.3 mg/kg q8–12h for overactive bladder"
+          }
+        ],
+        "contraindications": [
+          "Avoid estrogen therapies in prepubertal/intact females; use judiciously post-spay.",
+          "Avoid PPA in uncontrolled hypertension/cardiac disease; monitor BP."
+        ],
+        "interactions": [],
+        "adverse_effects": [
+          "PPA: hypertension, agitation; Estriol: vulvar swelling/estrus signs; Alpha-blockers: hypotension/syncope; Diazepam: sedation/ataxia; Bethanechol: GI cramping/diarrhea."
+        ]
+      },
+      "monitoring": {
+        "schedule": [
+          "After any medication change: recheck 1–4 weeks with CUI-S, exam, PVRV; BP if on PPA/alpha-blocker.",
+          "Before cystoscopy/CA-EU/AUS/stenting: urinalysis + culture; if positive, start antimicrobials 24 h pre-anaesthesia."
+        ],
+        "targets": [
+          "CUI-S improvement versus baseline.",
+          "PVRV <1 mL/kg (ideal); ≤1.0 mL/kg normal; >3 mL/kg abnormal."
+        ],
+        "escalation": [
+          "Persistent PVRV >3 mL/kg or worsening CUI-S → escalate diagnostics (retrograde studies ± cystoscopy) and consider FOO/MOO.",
+          "Relapsing leakage despite optimized USMI meds → discuss bulking versus AUS."
+        ],
+        "client_notes": [
+          "Give unhurried time to void fully; bring videos of urination if possible.",
+          "Track leaks and water intake in a simple diary; report straining or hematuria.",
+          "Expect reassessment after ~2–4 weeks of therapy changes; doses/devices may be adjusted."
+        ]
+      },
+      "special_populations": [
+        "Males: FOO may be more prevalent than USMI—exclude obstruction first.",
+        "Neurologic flags (fecal incontinence, spinal pain, abnormal gait) → full neuro exam ± spinal MRI.",
+        "Sedation/anaesthesia depresses MUCP and detrusor activity—interpret urodynamics cautiously."
+      ],
+      "implementation": {
+        "equipment": [
+          "2D/3D ultrasound (bladder scanner) for PVRV",
+          "Radiography (include entire urethra)",
+          "Retrograde contrast equipment ± fluoroscopy",
+          "Cystoscopy/laser (for CA-EU and bulking)",
+          "AUS kit",
+          "Stenting equipment"
+        ],
+        "cost_notes": [
+          "Cystoscopy/laser and AUS/stents require referral-level resources; bulking may need repeats within 12 months."
+        ],
+        "stewardship": [
+          "Follow ISCAID: treat culture-positive UTI 5 days; avoid treating subclinical bacteriuria except around procedures; confirm negative culture when feasible prior to interventions."
+        ]
+      },
+      "alignment": {
+        "conflicts": [
+          "Aligns with ISCAID UTI guidance on short (5-day) therapy and peri-procedural coverage."
+        ],
+        "uncertainties": [
+          "Few prospective randomized trials; many recommendations are expert-based; optimal long-term monitoring cadence for specific therapies/devices is not definitively established."
+        ]
+      },
+      "take_home": [
+        {
+          "text": "Measure PVRV in every incontinent dog (ultrasound ≤10 min post-void); >3 mL/kg suggests a voiding disorder—work up FOO/MOO.",
+          "grade": "A"
+        },
+        {
+          "text": "For USMI, start PPA (2 mg/kg q8–12h) or estriol in spayed females; reassess in ~28 days and titrate.",
+          "grade": "A"
+        },
+        {
+          "text": "Suspect ectopic ureters? Prefer cystoscopy (often diagnostic and therapeutic); use CT if cystoscopy unavailable.",
+          "grade": "A"
+        }
+      ],
+      "one_screen_flow": [
+        "Confirm UI (history/video, CUI-S) → UA + culture → measure PVRV (ultrasound ≤10 min).",
+        "If PVRV >3 mL/kg: radiographs incl. urethra → retrograde study ± cystoscopy; start FOO protocol (alpha-blocker ± diazepam) or manage MOO as indicated.",
+        "If PVRV ≤1 mL/kg with leakage: USMI likely → start PPA or estriol (spayed female).",
+        "Recheck 1–4 weeks: CUI-S, PVRV, BP (if on PPA/alpha-blocker).",
+        "Refractory USMI: discuss bulking vs AUS.",
+        "EU suspected/confirmed: cystoscopy/laser ablation; consider adjuncts.",
+        "Before interventions: ensure negative culture or give peri-procedural antibiotics."
+      ],
+      "review_next_by": "2027-08-31",
+      "score": 86,
+      "_checksum": "328c9529304a",
+      "_source_file": "normalized"
+    },
+    {
+      "id": "acvim-itp-dx-2024",
+      "org": "ACVIM",
+      "title": "Consensus statement on the diagnosis of immune thrombocytopenia in dogs and cats",
+      "year": 2024,
+      "doi": "10.1111/jvim.16996",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.16996",
+      "species": [
+        "dog",
+        "cat"
+      ],
+      "systems": [
+        "hematology",
+        "internal medicine",
+        "emergency"
+      ],
+      "conditions": [
+        "immune thrombocytopenia",
+        "thrombocytopenia",
+        "DIC",
+        "pseudothrombocytopenia",
+        "macrothrombocytopenia"
+      ],
+      "setting": [
+        "GP",
+        "Internal Medicine",
+        "ER",
+        "Hematology"
+      ],
+      "scope_in": [
+        "Diagnostic approach and certainty levels for ITP in dogs and cats",
+        "First- and second-line diagnostics, including hemostasis testing and comorbidity screening",
+        "Interpretation pitfalls (pseudothrombocytopenia, breed macrothrombocytopenia), and when to consider bone marrow"
+      ],
+      "scope_out": [
+        "Therapy/management (covered in a companion ACVIM treatment statement)",
+        "Detailed transfusion protocols or immunosuppressive regimens"
+      ],
+      "methods": "PECO-framed questions with guideline statements; consensus process incorporating literature synthesis. Comorbidity recommendations scored with the IME (impact, magnitude, existence) metric.",
+      "grading_native": "Per-statement Level of Evidence (Low/Moderate) and Strength of Recommendation (Weak/Strong). Example: PSAIG—LoE: Low; Strength: Weak.",
+      "normalized_grade": "B",
+      "conflicts_of_interest": "COI and off-label antimicrobial declarations provided (several authors report relationships; others declare none).",
+      "staging_system": "Levels of diagnostic certainty for ITP (Possible → Probable/Diagnostic; optional 'with immunologic evidence'); separate dog and cat algorithms.",
+      "thresholds": [
+        {
+          "name": "Algorithm entry",
+          "value": "<100,000",
+          "unit": "platelets/µL",
+          "how_measured": "Automated count; confirm on blood smear and exclude clumping (cats prone)."
+        },
+        {
+          "name": "Analyzer variability allowance",
+          "value": "±25%",
+          "unit": "relative error",
+          "how_measured": "Between-method variability; repeat counts advised."
+        },
+        {
+          "name": "Severe thrombocytopenia",
+          "value": "<20,000–30,000",
+          "unit": "platelets/µL",
+          "how_measured": "Clinical risk zone where transfusion/major hemorrhage more likely in dogs."
+        },
+        {
+          "name": "DIC screening — define abnormal",
+          "value": "≥2 abnormal; PT/aPTT >25% over control",
+          "unit": "panel-based",
+          "how_measured": "Abnormal among PT, aPTT, D-dimer/FDP, fibrinogen, antithrombin; interpret relative to control."
+        }
+      ],
+      "key_points": [
+        "Verify true thrombocytopenia first: smear review to exclude clumping; if clumped, resample and recount.",
+        "Expect analyzer intermethod variability (≈±25%); use consistent methodology for trending.",
+        "Early coagulation testing helps separate consumption coagulopathies (e.g., DIC) from ITP.",
+        "Use species-specific algorithms and assign diagnostic certainty; cats are especially prone to pseudothrombocytopenia.",
+        "PSAIG, bone marrow, and platelet indices are not routine requirements for diagnosis."
+      ],
+      "diagnostics": {
+        "first_line": [
+          "Confirm true thrombocytopenia: blood film review to exclude clumps; if clumped, resample (non-EDTA acceptable) and recount.",
+          "Repeat/replicate counts and interpret allowing ~±25% intermethod error.",
+          "Coagulation testing (PT, aPTT ± D-dimer/FDP, fibrinogen, antithrombin) early to distinguish consumption coagulopathies (e.g., DIC) from ITP; treat ≥2 abnormal results as supportive of DIC; use >25% over control for PT/aPTT.",
+          "Apply species-specific diagnostic algorithms (dogs vs cats) and assign diagnostic certainty; algorithms note cats frequently have pseudothrombocytopenia.",
+          "Initiate comorbidity screening guided by consensus sections (e.g., vector-borne infections in dogs; FeLV/FIV in cats)."
+        ],
+        "second_line": [
+          "Platelet surface–associated immunoglobulin (PSAIG): supportive only; not required for diagnosis. LoE: Low; Strength: Weak.",
+          "Bone marrow evaluation: not routine; reserve for animals with ill-defined or additional cytopenias.",
+          "Platelet indices (MPV/IPF/plateletcrit): adjunctive at best; not recommended for routine diagnostic/prognostic use (plateletcrit may rise before count in remission)."
+        ],
+        "pitfalls": [
+          "Pseudothrombocytopenia from EDTA clumping (especially cats); always verify on smear/resample.",
+          "Analyzer intermethod variability (~±25%); use consistent methodology for serial monitoring.",
+          "Breed macrothrombocytopenia (e.g., Cavalier King Charles Spaniel): consider genetic testing early to avoid misclassification."
+        ],
+        "do_not_do": [
+          "Do not rely on PSAIG as a standalone/routine test—diagnosis can be made without it.",
+          "Do not perform routine bone marrow exams in straightforward isolated thrombocytopenia.",
+          "Do not use MPV/IPF/plateletcrit as primary diagnostic or prognostic determinants."
+        ]
+      },
+      "therapy": {
+        "start_criteria": [
+          "Outside the scope of this paper; see companion ACVIM treatment consensus."
+        ],
+        "stop_hold_criteria": [
+          "Outside the scope of this paper."
+        ],
+        "first_line": [],
+        "alternatives": [],
+        "contraindications": [],
+        "interactions": [],
+        "adverse_effects": []
+      },
+      "monitoring": {
+        "schedule": [
+          "No fixed cadence specified; repeat platelet counts to confirm persistence and trend, using the same methodology per patient."
+        ],
+        "targets": [
+          "Upward platelet trend indicates improvement; plateletcrit may increase before the automated count during remission."
+        ],
+        "escalation": [
+          "Presence of melena is associated with poorer survival in dogs with ITP—treat as a red flag for disease severity."
+        ],
+        "client_notes": [
+          "Monitor for new/worsening bleeding (petechiae, ecchymoses, melena).",
+          "Cats may bleed less obviously (epistaxis uncommon); report lethargy/anorexia or subtle signs.",
+          "Expect repeat blood checks to verify true low platelets and rule out clumping artifacts."
+        ]
+      },
+      "special_populations": [
+        "Cats: mucocutaneous bleeding less frequent; major hemorrhage relatively rare; epistaxis uncommon.",
+        "Breeds with inherited macrothrombocytopenia (e.g., CKCS): early genetic testing recommended."
+      ],
+      "implementation": {
+        "equipment": [
+          "Hematology analyzer and blood film review capability",
+          "Coagulation testing (PT, aPTT; access to D-dimer/FDP, fibrinogen, antithrombin if possible)",
+          "Access to vector-borne/retroviral testing per regional risk"
+        ],
+        "cost_notes": [
+          "PSAIG assays exist but are not standardized and are not required; consider as a send-out if pursued."
+        ],
+        "stewardship": [
+          "Use comorbidity testing to avoid unnecessary immunosuppression when a non-immune cause is likely (e.g., DIC/rodenticide)."
+        ]
+      },
+      "alignment": {
+        "conflicts": [
+          "Historically, some clinicians favored routine PSAIG or bone marrow—this consensus advises against routine use and allows diagnosis without immunologic testing when criteria are met."
+        ],
+        "uncertainties": [
+          "Many statements are based on Low–Moderate LoE; platelet indices remain inconsistent; standardized thresholds for adjunctive tests are unsettled."
+        ]
+      },
+      "take_home": [
+        {
+          "text": "Confirm true thrombocytopenia first (smear + repeat counts), allowing ~±25% intermethod error; cats are prone to clumping artifacts.",
+          "grade": "A"
+        },
+        {
+          "text": "Early coagulation testing (PT/aPTT ± D-dimer/FDP, fibrinogen, antithrombin) helps separate DIC/rodenticide from ITP; treat ≥2 abnormal results as supportive of DIC.",
+          "grade": "A"
+        },
+        {
+          "text": "Do not use PSAIG, bone marrow, or platelet indices as routine tests—diagnosis can be made without them in typical isolated thrombocytopenia.",
+          "grade": "B"
+        }
+      ],
+      "one_screen_flow": [
+        "Confirm low platelets: <100,000/µL → review smear for clumps; if clumped, resample and recount.",
+        "Quantify severity: if <30,000/µL (esp. <20,000/µL) treat as high risk for major bleeding/transfusion.",
+        "Rule out consumption coagulopathy: PT, aPTT (>25% over control), D-dimer/FDP, fibrinogen, antithrombin; DIC if ≥2 abnormal.",
+        "Assign diagnostic certainty via dog/cat algorithm; note species differences (cats often have pseudothrombocytopenia).",
+        "Screen comorbidities based on risk (vector-borne in dogs; FeLV/FIV in cats).",
+        "Only if atypical/additional cytopenias: consider bone marrow; avoid routine PSAIG/platelet indices.",
+        "Monitor with consistent methodology; upward platelet trend (± earlier rise in plateletcrit) signals improvement."
+      ],
+      "review_next_by": "2026-12-31",
+      "score": 77,
+      "_checksum": "7b41fb8df526",
+      "_source_file": "normalized"
+    },
+    {
+      "id": "acvim-feline-ce-dx-2023",
+      "org": "ACVIM",
+      "title": "Consensus statement guidelines on diagnosing and distinguishing low-grade neoplastic from inflammatory lymphocytic chronic enteropathies in cats",
+      "year": 2023,
+      "doi": "10.1111/jvim.16690",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.16690",
+      "species": [
+        "cat"
+      ],
+      "systems": [
+        "gastroenterology",
+        "oncology",
+        "imaging",
+        "pathology",
+        "internal medicine"
+      ],
+      "conditions": [
+        "chronic enteropathy",
+        "lymphocytic-plasmacytic enteritis (LPE)",
+        "low-grade intestinal T-cell lymphoma (LGITL)"
+      ],
+      "setting": [
+        "GP",
+        "Internal Medicine",
+        "Oncology",
+        "Imaging",
+        "Pathology"
+      ],
+      "scope_in": [
+        "Definition and diagnostic differentiation of LPE vs LGITL",
+        "Recommended diagnostic pathway for cats with chronic enteropathy",
+        "Use/limits of imaging, histopathology, IHC, and PARR"
+      ],
+      "scope_out": [
+        "Definitive treatment protocols for LPE/LGITL",
+        "Prognostic staging systems",
+        "Detailed anesthesia/ventilator protocols"
+      ],
+      "methods": "Literature review with panel consensus; statements graded by a modified evidence scheme (Levels I–III, O, E).",
+      "grading_native": "Evidence levels I (highest) → III; O (other species); E (expert).",
+      "normalized_grade": "B",
+      "conflicts_of_interest": "Two authors affiliated with clonality-testing labs; other consultancies disclosed; authors state these did not influence outcomes.",
+      "staging_system": "Terminology standardized as CE, LPE, and LGITL; no staging system.",
+      "thresholds": [
+        {
+          "name": "Serum cobalamin — cellular deficiency likelihood",
+          "value": "<209 (Se 51%, Sp 96% for ↑MMA); <290 (Se 74%, Sp 80%)",
+          "unit": "ng/L",
+          "how_measured": "Serum; MMA by serum biomarker",
+          "note": "Low cobalamin more frequent in LGITL."
+        },
+        {
+          "name": "Serum folate — limited utility",
+          "value": "≥15.5 (reported Se 80%, Sp 100% in one study)",
+          "unit": "μg/L",
+          "how_measured": "Serum",
+          "note": "Hemolysis can falsely elevate folate."
+        }
+      ],
+      "key_points": [
+        "Tissue diagnosis is the gold standard; high-quality mucosal biopsies usually suffice—jejunum is often affected and may need full-thickness access.",
+        "Use IHC and PARR as adjuncts only; do not reclassify cases on clonality (PARR) alone.",
+        "Abdominal ultrasound maps disease and nodes but cannot distinguish LPE from LGITL; a normal scan does not exclude pathology.",
+        "Check cobalamin (± MMA) and folate; hypocobalaminemia is common—supplementation is safe and often indicated.",
+        "Baseline work-up (CBC/Chem/UA/fecal/T4; FeLV/FIV as indicated; f-PLI, f-TLI) and comorbidity screening are essential."
+      ],
+      "diagnostics": {
+        "first_line": [
+          "CBC, chemistry, urinalysis, fecal, total T4; FeLV/FIV in at-risk cats.",
+          "Abdominal ultrasound to localize lesions and screen nodes/other organs (cannot by itself distinguish LPE vs LGITL).",
+          "f-PLI to assess pancreatitis; f-TLI to exclude EPI when indicated.",
+          "Serum cobalamin ± MMA; folate (interpret with caveats)."
+        ],
+        "second_line": [
+          "Histopathology on intestinal biopsies (gold standard). High-quality mucosal endoscopic biopsies or full-thickness; ensure orientation/quality. Jejunum often affected and not always reachable endoscopically.",
+          "Immunohistochemistry panel (e.g., CD3, CD20/CD79a/PAX5, Ki-67, STAT5) to phenotype and support diagnosis.",
+          "PARR (clonality) as adjunct—interpret only alongside clinical, histology, and IHC; do not reclassify on clonality alone."
+        ],
+        "pitfalls": [
+          "No single biomarker/panel reliably differentiates LPE vs LGITL.",
+          "Normal abdominal ultrasound does not exclude significant bowel pathology.",
+          "Folate can be spuriously high with hemolysis.",
+          "Clonal results can occur in non-neoplastic settings; integration required."
+        ],
+        "do_not_do": [
+          "Do not use cytology to distinguish LPE vs LGITL (architecture needed).",
+          "Do not rely on abdominal radiographs for diffuse CE.",
+          "Do not reclassify cases based on PARR alone."
+        ]
+      },
+      "therapy": {
+        "start_criteria": [
+          "Therapy selection beyond scope; confirm subtype by tissue diagnosis before classification-specific treatment."
+        ],
+        "stop_hold_criteria": [],
+        "first_line": [],
+        "alternatives": [],
+        "contraindications": [],
+        "interactions": [],
+        "adverse_effects": []
+      },
+      "monitoring": {
+        "schedule": [
+          "Not prescriptive in this statement; follow disease-specific standards post-diagnosis."
+        ],
+        "targets": [
+          "Correct hypocobalaminemia; reassess clinical response per CE standards."
+        ],
+        "escalation": [
+          "Persistent/worsening signs despite diet/therapy → revisit histopathology/IHC/PARR integration; ambiguous cases acknowledged."
+        ],
+        "client_notes": [
+          "Chronic GI signs (≥3 weeks) warrant full work-up; comorbidities are common.",
+          "Imaging cannot confirm type—tissue is usually required.",
+          "Low B12 is common; supplementation is safe and often indicated."
+        ]
+      },
+      "special_populations": [
+        "Common comorbidities: hyperthyroidism, CKD, pancreatitis, cholangitis, urolithiasis, HCM—plan work-up accordingly."
+      ],
+      "implementation": {
+        "equipment": [
+          "High-quality abdominal ultrasound",
+          "Endoscopy or surgical biopsy capability",
+          "Access to veterinary pathology with GI expertise",
+          "IHC and PARR (external labs acceptable)"
+        ],
+        "cost_notes": [
+          "IHC/PARR are send-outs; ensure proper FFPE handling and biopsy orientation to avoid repeat sampling."
+        ],
+        "stewardship": [
+          "Avoid empiric immunosuppression before diagnostic sampling when possible."
+        ]
+      },
+      "alignment": {
+        "conflicts": [
+          "WSAVA standards guide inflammation scoring but are not designed to differentiate LGITL vs LPE; ACVIM emphasizes multi-modal integration with IHC/PARR."
+        ],
+        "uncertainties": [
+          "No imaging modality reliably distinguishes LPE vs LGITL; biomarker gaps remain; ambiguity persists despite advanced testing."
+        ]
+      },
+      "take_home": [
+        {
+          "text": "Intestinal histopathology is the gold standard; high-quality mucosal biopsies usually suffice—jejunum involvement may need full-thickness access.",
+          "grade": "B"
+        },
+        {
+          "text": "Use IHC and PARR as adjuncts; never reclassify on clonality alone—integrate with histology and clinical context.",
+          "grade": "B"
+        },
+        {
+          "text": "Ultrasound maps disease but cannot distinguish LPE from LGITL; a normal scan does not exclude pathology.",
+          "grade": "B"
+        }
+      ],
+      "one_screen_flow": [
+        "When to test → Cat with ≥3 weeks GI signs (rule out metabolic/endocrine/infectious; consider comorbidities).",
+        "Baseline work-up → CBC/Chem/UA/fecal/T4; FeLV/FIV as indicated; f-PLI, f-TLI; cobalamin ± MMA and folate.",
+        "Imaging → Abdominal ultrasound to localize; do not use imaging to distinguish LPE vs LGITL.",
+        "Biopsy → Obtain adequate, well-oriented mucosal biopsies (duodenum ± ileum; consider full-thickness if needed; jejunum often involved).",
+        "Ancillaries → Request GI IHC panel; add PARR; integrate all results (do not reclassify on PARR alone).",
+        "Supportive → Treat hypocobalaminemia; then follow disease-specific therapy pathways (outside scope)."
+      ],
+      "review_next_by": "2027-12-31",
+      "score": 71,
+      "score_breakdown": {
+        "Actionability_0.20": 3,
+        "Specificity_0.15": 4,
+        "Evidence_strength_0.15": 3,
+        "Recency_0.10": 5,
+        "Generalizability_0.10": 4,
+        "Risk_clarity_0.10": 4,
+        "Monitoring_clarity_0.10": 2,
+        "Controversy_handling_0.05": 4,
+        "Implementation_practicality_0.05": 4
+      },
+      "_checksum": "c2321ded2156",
+      "_source_file": "normalized"
+    },
+    {
+      "id": "acvim-itp-2024",
+      "org": "ACVIM",
+      "title": "Consensus statement on the treatment of immune thrombocytopenia in dogs and cats",
+      "year": 2024,
+      "doi": "10.1111/jvim.17079",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.17079",
+      "species": [
+        "dog",
+        "cat"
+      ],
+      "systems": [
+        "hematology",
+        "internal medicine",
+        "emergency"
+      ],
+      "conditions": [
+        "immune thrombocytopenia",
+        "primary ITP",
+        "thrombocytopenia"
+      ],
+      "setting": [
+        "GP",
+        "ER/ICU",
+        "Internal Medicine"
+      ],
+      "scope_in": [
+        "Primary ITP (pITP) in dogs/cats",
+        "Initial inpatient/outpatient management",
+        "Remission, tapering, relapse monitoring"
+      ],
+      "scope_out": [
+        "Detailed diagnostic criteria (see separate diagnosis manuscript)",
+        "Non-immune thrombocytopenia",
+        "Other IMHA/Evans syndromes"
+      ],
+      "methods": "Systematic evidence review feeding PICO questions; responses integrated by domain chairs; 2–3 Delphi rounds to consensus; 288 references; algorithms in Figures 2–3.",
+      "grading_native": "Level of evidence (e.g., Low/Moderate), Strength of recommendation (e.g., Weak/Moderate/Strong), Degree of consensus (Delphi votes).",
+      "normalized_grade": "B",
+      "conflicts_of_interest": "Standard ACVIM/JVIM consensus process described; author list and oversight noted.",
+      "staging_system": "Treatment response definitions (guided by ASH ITP): NR, PR, CR, Remission.",
+      "thresholds": [
+        {
+          "name": "No response (NR)",
+          "value": "<30,000",
+          "unit": "platelets/µL",
+          "how_measured": "CBC"
+        },
+        {
+          "name": "Partial response (PR)",
+          "value": "≥30,000 and <100,000 + >2× over baseline + no bleeding",
+          "unit": "platelets/µL",
+          "how_measured": "CBC"
+        },
+        {
+          "name": "Complete response (CR)",
+          "value": "≥100,000 + no bleeding",
+          "unit": "platelets/µL",
+          "how_measured": "CBC"
+        },
+        {
+          "name": "Remission (off drug)",
+          "value": "≥100,000 + no bleeding without treatment",
+          "unit": "platelets/µL",
+          "how_measured": "CBC"
+        },
+        {
+          "name": "Lower-risk discharge threshold",
+          "value": ">40–50,000 with bleeding controlled",
+          "unit": "platelets/µL",
+          "how_measured": "CBC + clinical bleed check"
+        }
+      ],
+      "key_points": [
+        "Start immunosuppressive glucocorticoids in suspected/diagnosed pITP; add single-dose vincristine (0.02 mg/kg IV) in bleeding dogs to speed platelet recovery.",
+        "Use response thresholds (PR ≥30–<100k; CR ≥100k with no bleeding) to guide discharge and taper decisions.",
+        "Avoid platelet antibody assays for monitoring; base decisions on CBC and bleeding status.",
+        "Do not use routine platelet transfusions—reserve for life-threatening hemorrhage.",
+        "Limit to ≤2 concurrent immunosuppressives; consider early second agent in large dogs to reduce steroid adverse effects.",
+        "Taper steroids ~25% every 2–4 weeks once stable; recheck before each step; expect months to complete."
+      ],
+      "diagnostics": {
+        "first_line": [
+          "CBC with smear + focused physical exam; track mucocutaneous/ocular/GI bleeding and drug adverse effects.",
+          "Use DOGiBAT bleeding assessment to standardize severity (referenced in algorithms)."
+        ],
+        "second_line": [
+          "For relapse workup: history (drugs/travel), CBC/smear, chemistry/urinalysis; imaging and infectious/neoplastic testing as indicated; consider therapeutic drug monitoring."
+        ],
+        "pitfalls": [
+          "Platelet antibody/megakaryocyte surface Ig assays: limited availability, lag time, lack of standardization—do not use for routine monitoring."
+        ],
+        "do_not_do": [
+          "Do not base monitoring on platelet antibody assays.",
+          "Routine platelet transfusion not recommended (no proven outcome benefit)."
+        ]
+      },
+      "therapy": {
+        "start_criteria": [
+          "Diagnosed/suspected pITP with clinically relevant bleeding or severe thrombocytopenia (see algorithms)."
+        ],
+        "stop_hold_criteria": [
+          "Escalate or hold taper if bleeding recurs or platelet count drops below PR/CR ranges; reassess for relapse triggers."
+        ],
+        "first_line": [
+          {
+            "name": "Glucocorticoids (immunosuppressive dose)",
+            "dose": "per clinician protocol",
+            "route": "PO/IV",
+            "duration": "Months with taper per response",
+            "notes": "First-line across species."
+          },
+          {
+            "name": "Vincristine (dogs, add-on)",
+            "dose": "0.02 mg/kg IV once",
+            "route": "IV",
+            "duration": "Single dose adjunct",
+            "notes": "Moderately strong evidence for faster platelet recovery in bleeding dogs when added to steroids."
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Second immunosuppressive (dogs)",
+            "options": [
+              "Azathioprine",
+              "Modified cyclosporine",
+              "Leflunomide",
+              "Mycophenolate mofetil"
+            ],
+            "when": "Consider early in large dogs or when steroid adverse effects are likely; evidence low; avoid >2 concurrent immunosuppressives."
+          },
+          {
+            "name": "Second immunosuppressive (cats)",
+            "options": [
+              "Chlorambucil",
+              "Modified cyclosporine"
+            ],
+            "when": "Relapse on taper or steroid adverse effects/contraindications."
+          },
+          {
+            "name": "hIVIg (adjunct)",
+            "when": "Not recommended as monotherapy; selective use with glucocorticoids in severe bleeding."
+          },
+          {
+            "name": "Platelet products",
+            "when": "Reserve for severe/life-threatening bleeding; routine use not advised."
+          },
+          {
+            "name": "Antifibrinolytics (EACA/TXA)",
+            "when": "Life-threatening bleeding if DIC excluded; outcome benefit unproven; TXA may cause vomiting."
+          }
+        ],
+        "contraindications": [
+          "Avoid >2 concurrent immunosuppressive drugs; added toxicity without proven benefit.",
+          "Avoid antiplatelet/anticoagulant drugs during severe thrombocytopenia."
+        ],
+        "interactions": [
+          "Early addition of a second immunosuppressive can enable faster steroid taper in large dogs prone to steroid adverse effects."
+        ],
+        "adverse_effects": [
+          "Glucocorticoids: GI signs, hepatopathy, calcinosis cutis, diabetes mellitus; risk increases with body weight—monitor and taper accordingly.",
+          "Tranexamic acid: vomiting noted in cohorts."
+        ]
+      },
+      "monitoring": {
+        "schedule": [
+          "Inpatient: Daily PE; CBC every 2–3 days until bleeding stops and platelets >40–50k/µL; intensify if bleeding/anemia/decline.",
+          "Outpatient: With platelets >40–50k/µL and no bleeding—CBC/PE every 1–2 weeks ×1 month, then every 2–4 weeks until durable remission.",
+          "During taper: PE/CBC/smear before any dose reduction; recheck in 1–3 weeks.",
+          "Remission off drugs: Monthly PE+CBC ×3 months, then extend; check platelets before procedures/vaccines."
+        ],
+        "targets": [
+          "Treatment goal: platelets ≥100,000/µL with no bleeding (on or off treatment)."
+        ],
+        "escalation": [
+          "If platelets <40–50k/µL or bleeding recurs: increase monitoring, halt taper/adjust therapy per algorithms."
+        ],
+        "client_notes": [
+          "Watch for petechiae, melena, epistaxis, lethargy; report immediately.",
+          "Limit activity; soft food; avoid toys/procedures that can cause trauma.",
+          "Expect frequent rechecks early; vaccination timing/number may change (one vaccine per visit; check platelets post-vaccine)."
+        ]
+      },
+      "special_populations": [
+        "Large dogs (>25 kg): higher steroid adverse-effect risk—consider earlier second agent to enable faster taper.",
+        "Comorbidities needing faster steroid reduction: DM, HAC, urinary incontinence, severe cardiac disease, prior thromboembolism.",
+        "Cats: For maintenance/relapse, consider chlorambucil or modified cyclosporine with glucocorticoids (weak evidence)."
+      ],
+      "implementation": {
+        "equipment": [
+          "CBC with smear; ability to hospitalize for bleeding control; access to blood bank (RBC ± platelet products helpful).",
+          "Optional: DOGiBAT scoring; therapeutic drug monitoring if using cyclosporine; culture if UTI concern."
+        ],
+        "cost_notes": [
+          "Platelet products are challenging and costly to produce—reserve for severe bleeding."
+        ],
+        "stewardship": [
+          "Avoid >2 concurrent immunosuppressants; minimize iatrogenic harm (avoid IM/SQ injections; avoid noncompressible venipuncture).",
+          "Avoid antithrombotic/antiplatelet drugs while severely thrombocytopenic."
+        ]
+      },
+      "alignment": {
+        "conflicts": [
+          "Human ASH guidelines often prioritize TPO-RAs earlier; veterinary evidence for TPO-RAs is limited—consensus emphasizes steroids ± vincristine; platelet products infrequent."
+        ],
+        "uncertainties": [
+          "Optimal steroid dosing schema not specified; best tapering of second agents unresolved.",
+          "Platelet products improve counts but not proven to change outcomes; antifibrinolytics’ outcome benefit unproven."
+        ]
+      },
+      "take_home": [
+        {
+          "text": "In bleeding dogs, add vincristine 0.02 mg/kg IV once to glucocorticoids for faster platelet recovery.",
+          "grade": "A"
+        },
+        {
+          "text": "Do not use platelet antibody assays for monitoring—base on CBC and bleeding status.",
+          "grade": "B"
+        },
+        {
+          "text": "Taper steroids ~25% every 2–4 weeks once stable; recheck before each step and expect months of therapy.",
+          "grade": "C"
+        }
+      ],
+      "one_screen_flow": [
+        "Suspect/confirm pITP → start immunosuppressive glucocorticoids; in bleeding dogs, add vincristine 0.02 mg/kg IV once.",
+        "Hospitalize if active bleeding: daily PE; CBC q2–3d; transfuse RBCs as needed; avoid IM/SQ; no antithrombotics; consider antifibrinolytics only for life-threatening bleeds (no DIC).",
+        "Discharge when bleeding controlled and platelets >40–50k/µL; monitor weekly then every 2–4 weeks to durable remission.",
+        "Begin taper once stable: reduce steroid dose ~25% every 2–4 weeks; recheck 1–3 weeks after each change; months to complete.",
+        "Relapse? Re-evaluate (CBC/chem/UA ± imaging/infectious tests), resume prior effective dose or add/change second agent (dogs: azathioprine/cyclosporine/leflunomide/MMF; cats: chlorambucil or modified cyclosporine)."
+      ],
+      "review_next_by": "2027-08-24",
+      "score": 85,
+      "resources": [
+        {
+          "label": "Companion diagnosis consensus",
+          "id": "acvim-itp-dx-2024"
+        }
+      ],
+      "_checksum": "9f374c6c86fd",
+      "_source_file": "normalized"
+    },
+    {
+      "id": "acvim-lepto-2023",
+      "org": "ACVIM",
+      "title": "Updated ACVIM consensus statement on leptospirosis in dogs",
+      "year": 2023,
+      "doi": "10.1111/jvim.16903",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/10.1111/jvim.16903",
+      "species": [
+        "dog"
+      ],
+      "systems": [
+        "infectious disease",
+        "nephrology",
+        "emergency"
+      ],
+      "conditions": [
+        "leptospirosis",
+        "acute kidney injury",
+        "leptospiral pulmonary hemorrhage syndrome"
+      ],
+      "setting": [
+        "GP",
+        "ER",
+        "IM/Nephrology"
+      ],
+      "scope_in": [
+        "Case definition (clinical + lab) and diagnostics",
+        "Initial treatment (antimicrobials, supportive care, dialysis triggers)",
+        "Prevention (vaccination), infection control & public health"
+      ],
+      "scope_out": [
+        "Non-canine species (no feline vaccine)",
+        "Advanced ventilator protocols; human treatment guidance"
+      ],
+      "methods": "ACVIM Board-selected expert panel; evidence-based synthesis with panel interpretive comments; membership input; JVIM editorial review. Uses Level of Agreement (LOA) per recommendation, not GRADE.",
+      "grading_native": "Panel Level of Agreement (LOA); LOA ≥11/12 with direct evidence ≈ strong.",
+      "normalized_grade": "B",
+      "conflicts_of_interest": "Declared (honoraria/research support); no statement funding reported.",
+      "staging_system": "Case definition by clinical criteria + laboratory criteria (supportive vs confirmatory).",
+      "thresholds": [
+        {
+          "name": "MAT single titer (supportive)",
+          "value": "≥1:800",
+          "unit": "reciprocal dilution",
+          "how_measured": "Microscopic agglutination test (acute-phase serum); single titer is supportive only."
+        },
+        {
+          "name": "MAT convalescent rise (confirmatory)",
+          "value": "≥4-fold increase",
+          "unit": "fold-rise",
+          "how_measured": "Paired sera 7–14 days apart."
+        },
+        {
+          "name": "High MAT titer context",
+          "value": "≥1:3200 suggests active disease",
+          "unit": "reciprocal dilution",
+          "how_measured": "Interpret with clinical signs; not definitive alone."
+        },
+        {
+          "name": "NAAT (PCR) confirmatory",
+          "value": "Leptospira DNA in blood",
+          "unit": "qualitative",
+          "how_measured": "EDTA blood before antibiotics, if possible."
+        },
+        {
+          "name": "NAAT (PCR) supportive",
+          "value": "Leptospira DNA in urine",
+          "unit": "qualitative",
+          "how_measured": "Urine shedding often begins ~7–10 days post-infection; collect blood + urine when possible."
+        },
+        {
+          "name": "Vaccination primary series",
+          "value": "2 doses 4 weeks apart, start ≥12 weeks of age",
+          "unit": "doses & weeks",
+          "how_measured": "Manufacturer-licensed bacterins."
+        },
+        {
+          "name": "Vaccination booster",
+          "value": "Annual",
+          "unit": "months",
+          "how_measured": "Label and duration studies."
+        }
+      ],
+      "key_points": [
+        "Start antimicrobials promptly in compatible cases: hospital IV ampicillin then transition to doxycycline; outpatient doxycycline if mild.",
+        "Diagnose with paired testing: NAAT (blood+urine) ideally pre-antibiotics; confirm with ≥4-fold MAT rise at 7–14 days.",
+        "Isolate and use PPE; counsel owners on zoonotic risk and urine handling.",
+        "Consider dialysis for anuric/oliguric AKI or uncontrolled azotemia; monitor UOP, BP, electrolytes, creatinine daily.",
+        "Vaccinate annually after recovery; use the broadest serovar coverage available."
+      ],
+      "diagnostics": {
+        "first_line": [
+          "CBC/Chem/UA and blood pressure; thoracic imaging if respiratory signs; abdominal ultrasound for differential support.",
+          "MAT on acute serum (do not rule in/out from a single titer).",
+          "NAAT (PCR) on EDTA blood and urine (collect before antibiotics when possible).",
+          "POC IgM/IgG immunoassays early in disease; a negative does not exclude disease."
+        ],
+        "second_line": [
+          "Convalescent MAT at 7–14 days to document ≥4-fold rise.",
+          "Repeat NAAT if initial negative but suspicion remains (phase-dependent).",
+          "Culture/histology via reference labs only; not routine."
+        ],
+        "pitfalls": [
+          "Single MAT positive is not diagnostic; post-vaccinal titers can be high.",
+          "MAT serogroup reactions do not identify the infecting serovar.",
+          "Blood NAAT is confirmatory; urine NAAT supportive; both can be negative depending on timing/antibiotics.",
+          "Thoracic radiographs can underestimate pulmonary hemorrhage vs CT; patterns evolve."
+        ],
+        "do_not_do": [
+          "Do not rely on dark-field microscopy or non-reference culture in practice.",
+          "Do not choose vaccines based on MAT serosurveys when multiple products exist."
+        ]
+      },
+      "therapy": {
+        "start_criteria": [
+          "Begin antimicrobials promptly in compatible illness with supportive tests (e.g., POC positive, NAAT-positive urine) while awaiting convalescent serology."
+        ],
+        "stop_hold_criteria": [
+          "Transition from IV bacteremia-phase therapy to oral doxycycline after 24–48 h when stable/tolerating PO; hold/switch if significant GI intolerance."
+        ],
+        "first_line": [
+          {
+            "name": "Ampicillin (hospitalized, bacteremic phase)",
+            "dose": "20–30 mg/kg IV q8h",
+            "duration": "24–48 h then switch",
+            "notes": "Clear bacteremia; transition to doxycycline to eliminate renal carriage."
+          },
+          {
+            "name": "Doxycycline (carrier clearance & outpatients)",
+            "dose": "5 mg/kg PO q12h ×14 d",
+            "duration": "14 d",
+            "notes": "Eliminates renal shedding; also recommended prophylaxis for exposed cohoused dogs."
+          }
+        ],
+        "alternatives": [
+          {
+            "name": "Minocycline (if doxy intolerance/unavailable)",
+            "dose": "2 mg/kg PO q12h ×14 d",
+            "notes": "Alternative tetracycline per panel."
+          },
+          {
+            "name": "Broad-spectrum β-lactam or fluoroquinolone",
+            "dose": "per label",
+            "notes": "For initial stabilization if ampicillin not feasible; switch to doxycycline after 24–48 h."
+          }
+        ],
+        "contraindications": [
+          "Use immunosuppressives with caution; no evidence of benefit in leptospiral pulmonary hemorrhage syndrome (LPHS).",
+          "Transfusion seldom indicated unless clear need."
+        ],
+        "interactions": [],
+        "adverse_effects": [
+          "Doxycycline GI irritation—give with food/water; monitor vomiting; adjust if intolerance."
+        ]
+      },
+      "monitoring": {
+        "schedule": [
+          "Inpatient daily: hydration, urine output, electrolytes, creatinine, acid-base; BP at least daily; thoracic imaging if respiratory signs evolve.",
+          "Convalescent testing at 7–14 days to confirm ≥4-fold MAT rise; repeat NAAT guided by timing/antibiotics."
+        ],
+        "targets": [
+          "Urine output >1.3 mL/kg/h (favorable).",
+          "Stabilizing creatinine/electrolytes; improving clinical signs."
+        ],
+        "escalation": [
+          "Consider extracorporeal kidney support for anuria/oliguria or uncontrolled azotemia; negative prognostic factors include anuria, respiratory complications, DIC, pancreatitis, higher IRIS AKI grade.",
+          "Worsening respiratory signs → oxygen/advanced care; radiographs may underestimate LPHS—consider CT if unstable course."
+        ],
+        "client_notes": [
+          "Avoid urine contact; gloves/eye protection for cleanup; discuss zoonosis and provide credible public-health resources.",
+          "Household dogs: consider prophylactic doxycycline 5 mg/kg PO q12h ×14 d with acute/convalescent titers.",
+          "Vaccinate annually after recovery; exposure risk persists and natural immunity is uncertain."
+        ]
+      },
+      "special_populations": [
+        "Shelters: initial + booster ~3 weeks apart at intake due to shedding risk.",
+        "Small breeds: higher odds of post-vaccination AEs across vaccines, but lepto bacterins are not worse than core vaccines overall.",
+        "Cats: no approved leptospiral vaccines; canine biologics are not recommended."
+      ],
+      "implementation": {
+        "equipment": [
+          "POC immunoassay kits (IgM/IgG)",
+          "Access to NAAT (PCR) for blood/urine",
+          "Isolation/PPE supplies",
+          "Dialysis access (referral)"
+        ],
+        "cost_notes": [
+          "Dialysis is high-cost; use outcome scores to counsel."
+        ],
+        "stewardship": [
+          "Prefer penicillin-class → doxycycline sequence; avoid unnecessary broad-spectrum agents; vaccinate broadly to reduce community risk."
+        ]
+      },
+      "alignment": {
+        "conflicts": [
+          "ACVIM supports annual vaccination for all dogs (universal) vs some risk-based local practices; recommends broadest serovar coverage; avoid MAT serosurveys to choose products."
+        ],
+        "uncertainties": [
+          "Duration of natural-infection immunity and cross-protection; disease incidence in fully vaccinated dogs; extent/duration of urinary shedding in exposed cohabitants."
+        ]
+      },
+      "take_home": [
+        {
+          "text": "Treat early: ampicillin 20–30 mg/kg IV q8h for 24–48 h, then doxycycline 5 mg/kg PO q12h ×14 d to eliminate renal shedding.",
+          "grade": "A"
+        },
+        {
+          "text": "Paired testing: NAAT (blood+urine) ideally pre-antibiotics; confirm with ≥4-fold MAT rise at 7–14 days.",
+          "grade": "A"
+        },
+        {
+          "text": "Vaccinate annually after a 2-dose puppy series using the broadest serovar coverage available.",
+          "grade": "B"
+        }
+      ],
+      "one_screen_flow": [
+        "Suspect lepto (AKI ± hepatic ± LPHS) → isolate & PPE.",
+        "Same visit: CBC/Chem/UA; NAAT (EDTA blood + urine pre-antibiotics); MAT (acute serum); optional POC IgM/IgG.",
+        "Start antimicrobials now: ampicillin IV (hospital) or doxycycline PO if mild/outpatient.",
+        "Supportive care: fluids to euvolemia; antiemetics; monitor urine output & BP; escalate to dialysis if anuric/oliguric.",
+        "7–14 d: convalescent MAT (aim ≥4-fold rise). If initial NAAT negative but suspicion high, repeat per timing.",
+        "Discharge instructions: urine precautions; vaccinate after recovery; counsel household prophylaxis."
+      ],
+      "review_next_by": "2028-12-31",
+      "score": 88,
+      "_checksum": "92430f45d305",
+      "_source_file": "normalized"
+    }
+  ]
+}
